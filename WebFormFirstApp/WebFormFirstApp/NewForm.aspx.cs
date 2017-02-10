@@ -32,7 +32,10 @@ namespace WebFormFirstApp
 
         protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
-            Label1.ForeColor = System.Drawing.Color.Red;
+            if (CheckBox1.Checked)
+                Label1.ForeColor = System.Drawing.Color.Red;
+            else
+                Label1.ForeColor = System.Drawing.Color.Black;
         }
     }
 }
