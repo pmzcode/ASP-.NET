@@ -1,0 +1,15 @@
+﻿body {
+}
+
+
+.button{
+background-color:cadetblue;
+width: 100px;
+height: 50px;
+font-family: Impact;
+}
+
+.text{
+font-size: 14px;
+color: blueviolet;
+}
